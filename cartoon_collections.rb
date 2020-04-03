@@ -18,7 +18,7 @@ end
 
 def long_planeteer_calls(array)
  number = 0 
- if array.any? {|number| number.length > 50}
+ if array.any? {|number| number.length > 4}
   puts true 
   number+=1
 else
