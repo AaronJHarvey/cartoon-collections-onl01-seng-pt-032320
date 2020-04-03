@@ -26,7 +26,7 @@ else
 end
 end
 
-def find_the_cheese[array]
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find {cheese_types.include?type}
 end
