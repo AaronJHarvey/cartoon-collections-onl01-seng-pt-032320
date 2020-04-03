@@ -19,10 +19,10 @@ end
 def long_planeteer_calls(array)
  number = 0 
  if array.any? {|number| number.length > 4}
-  puts true 
+  return true 
   number+=1
 else
-  puts false
+  return false
 end
 end
 
