@@ -18,8 +18,11 @@ end
 
 def long_planeteer_calls(array)
   number = 0 
-  if array.any? {|letters| letter  # code an argument here
-  # Your code here
+  if array.any? {|number| number > 4
+    puts true
+    else 
+      puts false 
+      end
 end
 
 def find_the_cheese# code an argument here
