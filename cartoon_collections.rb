@@ -17,13 +17,13 @@ end
 
 
 def long_planeteer_calls(array)
-  number = 0 
-  if array.any? {|number| number > 4}
-    return true
-    else 
-      return false 
-      number+=1
-      end
+ number = 0 
+ if array.any? {|number| number.length > 50}
+  puts true 
+  number+=1
+else
+  puts false
+end
 end
 
 def find_the_cheese# code an argument here
