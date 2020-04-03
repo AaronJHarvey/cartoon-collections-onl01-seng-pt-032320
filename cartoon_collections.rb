@@ -17,7 +17,8 @@ end
 
 
 def long_planeteer_calls(array)
-  if # code an argument here
+  number = 0 
+  while number < array.length # code an argument here
   # Your code here
 end
 
